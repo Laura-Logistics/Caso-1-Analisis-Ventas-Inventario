@@ -1,4 +1,4 @@
-# Caso 1 – Análisis de Ventas e Inventario (Excel)
+# Caso 1 – Análisis de Ventas e Inventario (Google Sheets)
 
 ## 📌 Descripción del Proyecto
 
@@ -72,7 +72,7 @@ Se utilizó una paleta corporativa en verde oscuro y formato limpio orientado a 
 
 ## 🛠 Herramientas Utilizadas
 
-- Excel / Google Sheets
+- Google Sheets
 - Tablas dinámicas
 ---
 
@@ -83,4 +83,5 @@ Se utilizó una paleta corporativa en verde oscuro y formato limpio orientado a 
 - Análisis de desempeño de productos y proveedores
 - Interpretación de datos para toma de decisiones
 - Presentación ejecutiva de resultados
+
 - Enfoque en trazabilidad y transparencia
