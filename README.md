@@ -1,90 +1,185 @@
-# Caso 1 – Análisis de Ventas e Inventario (Google Sheets)
+# Caso 1 – Análisis de Ventas e Inventario
+Proyecto aplicado a Logística, Operaciones y Análisis de Datos
 
-## 📌 Descripción del Proyecto
+## 🎯 Objetivo del Caso
 
-Proyecto práctico orientado al análisis de ventas e inventario en un entorno de e-commerce.  
-Simula tareas propias de un Analista Junior de Operaciones, Logística o Inventarios.
+Simular un escenario real de análisis en un entorno de e-commerce, donde se requiere:
 
-El objetivo fue limpiar datos inconsistentes, controlar calidad de información y generar análisis mediante tablas dinámicas y visualizaciones ejecutivas.
+- Depurar información operativa con inconsistencias
 
----
+- Controlar la calidad de datos comerciales
 
-## 🧹 Proceso de Limpieza de Datos
+- Analizar desempeño de ventas e inventario
 
-Se trabajó sobre una base con errores intencionales:
+- Generar insights útiles para toma de decisiones
 
-- Inconsistencias en mayúsculas y acentos
-- Formatos de fecha distintos
-- Valores nulos en cantidad y proveedor
-- Estados de pedido con diferentes formatos
-- Precio unitario en 0
-- Registro sin fecha
+Este ejercicio refleja funciones propias de roles como:
 
-  [Dataset Original](ventas_inventario - dataset_original.csv)
+- Analista de Logística / Inventarios
 
-### Acciones realizadas:
+- Analista de Operaciones
 
-- Normalización de texto (Proveedor, Categoría, Estado)
-- Validación de fechas
-- Creación de columna `Ventas = Cantidad * Precio_Unit`
-- Tratamiento de cantidades nulas sin inferir valores
-- Clasificación de proveedor vacío como **"Anónimo"** únicamente para análisis
-- Registro sin fecha etiquetado como **"Sin Fecha"** para mantener trazabilidad
+- Analista de Abastecimiento
 
-No se modificó el dataset original.
+- Analista de Información Junior
 
----
+- Analista de Datos / E-commerce
 
-## 📊 Análisis Realizado
+## 🗂 Contexto del Problema
 
-Se desarrollaron tablas dinámicas para:
+Se trabajó con una base de datos con errores intencionales que simulaban problemas comunes en entornos reales:
 
-- Ventas por Producto
-- Ventas por Proveedor
-- Ventas por Región
-- Evolución temporal de ventas
-- Estado de pedidos
+- Estados de pedidos inconsistentes
 
-Para el análisis de ingresos reales se filtraron únicamente pedidos con estado **"Entregado"**.
+- Fechas mal formateadas
 
----
+- Proveedores sin identificar
 
-## 📈 Visualización
+- Cantidades nulas
 
-Se diseñaron gráficos ejecutivos con formato profesional:
+- Registros incompletos
 
-- Columnas → Ingresos por Producto
-- Barras → Ingresos por Proveedor
-- Línea → Evolución de Ventas
-- Circular → Distribución por Región
+- Precios unitarios en 0
 
-Se utilizó una paleta corporativa en verde oscuro y formato limpio orientado a presentación ejecutiva.
+En entornos logísticos y operativos, este tipo de errores impacta directamente:
 
----
+- Reportes financieros
 
-## 🔎 Principales Hallazgos
+- Planeación de inventarios
+
+- Seguimiento de pedidos
+
+- Evaluación de proveedores
+
+## 📂 Archivos del Proyecto
+
+### 🔹 Datos
+
+- [Dataset original](data/ventas_inventario_dataset_original.csv)
+- [Dataset limpio](data/ventas_inventario_limpieza_datos.csv)
+- [Archivo de trabajo en Excel](data/ventas_inventario.xlsx)
+
+### 🔹 Visualizaciones
+
+#### Ingresos por Producto
+![Ingresos por Producto](images/grafico_ingresos_producto.png) 
+
+#### Ventas por Proveedor
+![Ventas por Proveedor](images/grafico_proveedor.png)
+
+#### Evolución de Ventas
+![Evolución de Ventas](images/grafico_evolucion.png)
+> NOTA: 1 Registro sin fecha fue excluido del analisis temporal para mantener coherencia cronologica.					
+
+#### Distribución de Ventas por Región (%)
+![Distribución de Ventas por Región (%)](images/Distribución_Ventas.png)
+
+#### Tabla Dinámica Resumen
+![Tabla Dinámica](images/tabla_dinamica_resumen.png)
+
+## 🧹 Gestión y Control de Calidad de Datos
+
+Se implementó un proceso estructurado de limpieza:
+
+-  Normalización de proveedor, categoría y estado de pedido
+
+- Validación y estandarización de fechas
+
+- Creación de variable clave:
+
+    - Ventas = Cantidad × Precio_Unit
+
+
+- No se asumieron valores faltantes (criterio conservador de análisis)
+
+- Proveedores vacíos clasificados como "Anónimo" solo para análisis
+
+- Registro sin fecha identificado como "Sin Fecha" para mantener trazabilidad
+
+- El dataset original se mantuvo intacto
+
+## 🔎 Enfoque aplicado: control, trazabilidad y transparencia de información.
+
+### 📊 Análisis Desarrollado
+
+Se construyeron tablas dinámicas para evaluar:
+
+- Desempeño de productos
+
+- Rendimiento por proveedor
+
+- Distribución de ventas por región
+
+- Evolución temporal
+
+- Estado operativo de pedidos
+
+Para análisis de ingresos reales, se consideraron únicamente pedidos con estado "Entregado", separando resultados financieros de la operación en curso.
+
+Este criterio refleja buenas prácticas en control de operaciones y análisis financiero.
+
+### 📈 Hallazgos Clave
 
 - Producto con mayor ingreso: **Mouse USB**
+
 - Proveedor con mayor facturación: **Proveedor ABC**
+
 - Región con mayor volumen de ventas: **Norte**
-- Se detectó 1 registro sin fecha (excluido del análisis temporal)
-- Existen pedidos pendientes y cancelados que no impactan ingresos reales
 
----
+- Identificación de pedidos pendientes y cancelados que no impactan ingresos reales
 
-## 🛠 Herramientas Utilizadas
+- Detección de registro sin fecha (riesgo en reportes temporales)
+
+### 🧠 Enfoque Analítico Aplicado
+
+Este proyecto demuestra capacidad para:
+
+✔ Identificar riesgos en calidad de datos
+✔ Separar operación activa vs resultados consolidados
+✔ Analizar desempeño comercial y logístico
+✔ Evaluar proveedores
+✔ Apoyar decisiones de abastecimiento
+✔ Generar reportes claros para áreas ejecutivas
+
+### 🛠 Herramientas Utilizadas
 
 - Google Sheets
+
 - Tablas dinámicas
----
 
-## 💼 Competencias Demostradas
+- Validación y estructuración de datos
 
-- Limpieza y normalización de datos
-- Control de calidad de información
-- Análisis de desempeño de productos y proveedores
-- Interpretación de datos para toma de decisiones
-- Presentación ejecutiva de resultados
+## 📌 Relevancia para Áreas Profesionales
+### 🔹 Logística & Supply Chain
 
-- Enfoque en trazabilidad y transparencia
+- Control de estados de pedido
 
+- Evaluación de proveedores
+
+- Análisis de rotación y desempeño por región
+
+- Soporte a decisiones de abastecimiento
+
+### 🔹 Operaciones & Planeación
+
+- Análisis de información para toma de decisiones
+
+- Seguimiento de desempeño operativo
+
+- Identificación de inconsistencias en reportes
+
+### 🔹 Datos & E-commerce
+
+- Limpieza y estructuración de datasets
+
+- Construcción de métricas comerciales
+
+- Visualización ejecutiva de resultados
+
+> Este es el primero de una serie de casos prácticos enfocados en análisis aplicado a Logística, Operaciones y Datos.
+
+
+
+
+Este es el primero de una serie de casos prácticos enfocados en análisis aplicado a Logística, Operaciones y Datos.
+Visualización ejecutiva de resultados
