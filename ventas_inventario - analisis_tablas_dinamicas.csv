@@ -1,0 +1,37 @@
+Producto,SUM de Ventas
+"Monitor 24""",$0
+Mouse USB,$17.205
+Tablet,$500
+Suma total,$17.705
+,
+,
+,
+,
+,
+Proveedor_Normalizado,SUM de Ventas
+Anonimo,$500
+Proveedor ABC,$17.205
+Proveedor XYZ,$0
+,
+,
+,
+,
+Región,SUM de Ventas
+Centro,$2.050
+Norte,$15.655
+Sur,$0
+Suma total,$17.705
+,
+,
+,
+,
+,
+Fecha_Analisis,SUM de Ventas
+5/01/2024,$155
+6/01/2024,$0
+7/01/2024,$0
+8/01/2024,$850
+9/01/2024,$1.550
+10/01/2024,$500
+Sin Fecha,$15.500
+Suma total,$18.555
