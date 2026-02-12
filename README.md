@@ -68,7 +68,7 @@ En entornos logísticos y operativos, este tipo de errores impacta directamente:
 
 ## Archivos del Proyecto
 
-### 🔹 Datos
+### Datos
 
 | ID_Venta | Fecha | Producto | Categoria | Proveedor | Región | Cantidad | Precio_Unit | Stock | Estado |				
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |				
@@ -95,7 +95,7 @@ En entornos logísticos y operativos, este tipo de errores impacta directamente:
 > [Dataset limpio](data/ventas_inventario_limpieza_datos.csv) | 
 > [Archivo de trabajo en Excel](data/ventas_inventario.xlsx)
 
-### 🔹 Visualizaciones
+### Visualizaciones
 
 #### Ingresos por Producto
 ![Ingresos por Producto](images/grafico_ingresos_producto.png) 
@@ -192,7 +192,7 @@ Este proyecto demuestra capacidad para:
 - Validación y estructuración de datos
 
 ## Relevancia para Áreas Profesionales
-### 🔹 Logística & Supply Chain
+### Logística & Supply Chain
 
 - Control de estados de pedido
 
@@ -202,7 +202,7 @@ Este proyecto demuestra capacidad para:
 
 - Soporte a decisiones de abastecimiento
 
-### 🔹 Operaciones & Planeación
+### Operaciones & Planeación
 
 - Análisis de información para toma de decisiones
 
@@ -210,7 +210,7 @@ Este proyecto demuestra capacidad para:
 
 - Identificación de inconsistencias en reportes
 
-### 🔹 Datos & E-commerce
+### Datos & E-commerce
 
 - Limpieza y estructuración de datasets
 
@@ -225,6 +225,7 @@ Este proyecto demuestra capacidad para:
 
 Este es el primero de una serie de casos prácticos enfocados en análisis aplicado a Logística, Operaciones y Datos.
 Visualización ejecutiva de resultados
+
 
 
 
