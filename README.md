@@ -1,6 +1,21 @@
 # Caso 1 – Análisis de Ventas e Inventario
 Proyecto aplicado a Logística, Operaciones y Análisis de Datos
 
+---
+
+## 📑 Índice
+
+1. [Objetivo del Caso](#-objetivo-del-caso)
+2. [Contexto del Problema](#-contexto-del-problema)
+3. [Archivos del Proyecto](#-archivos-del-proyecto)
+4. [Gestión y Control de Calidad de Datos](#-gestión-y-control-de-calidad-de-datos)
+5. [Análisis Desarrollado](#-análisis-desarrollado)
+6. [Hallazgos Clave](#-hallazgos-clave)
+7. [Enfoque Analítico Aplicado](#-enfoque-analítico-aplicado)
+8. [Relevancia Profesional](#-relevancia-para-áreas-profesionales)
+
+---
+
 ## 🎯 Objetivo del Caso
 
 Simular un escenario real de análisis en un entorno de e-commerce, donde se requiere:
@@ -204,4 +219,5 @@ Este proyecto demuestra capacidad para:
 
 Este es el primero de una serie de casos prácticos enfocados en análisis aplicado a Logística, Operaciones y Datos.
 Visualización ejecutiva de resultados
+
 
