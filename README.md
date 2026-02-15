@@ -5,12 +5,12 @@ Proyecto aplicado a Logística, Operaciones y Análisis de Datos
 
 ## Índice
 
-1. [Objetivo del Caso](#-objetivo-del-caso)
-2. [Archivos del Proyecto](#-archivos-del-proyecto)
-3. [Análisis Desarrollado](#-análisis-desarrollado)
-6. [Hallazgos Clave](#-hallazgos-clave)
-7. [Enfoque Analítico Aplicado](#-enfoque-analítico-aplicado)
-8. [Relevancia Profesional](#-relevancia-para-áreas-profesionales)
+1. [Objetivo del Caso](#objetivo-del-caso)
+2. [Archivos del Proyecto](#archivos-del-proyecto)
+3. [Gestión y Limpieza de Datos](#gestión-y-limpieza-de-datos)
+4. [Visualizaciones](#visualizaciones)
+5. [Hallazgos Clave](#hallazgos-clave)
+6. [Relevancia para Supply Chain](#relevancia-para-supply-chain)
 
 ---
 
@@ -78,6 +78,7 @@ Simular análisis de ventas e inventario en un entorno de **Supply Chain / opera
 - Evaluación de proveedores
 - Análisis de rotación y desempeño por región
 - Apoyo en decisiones de abastecimiento
+
 
 
 
